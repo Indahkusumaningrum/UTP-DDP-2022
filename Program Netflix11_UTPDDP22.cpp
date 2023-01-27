@@ -100,7 +100,7 @@ int program (){
 				setcolor (4); //Memanggil prosedur setcolor dengan parameter 4, 4 mengatur warna teks menjadi merah
 				cout << "yang tidak tersedia dalam toko kami" <<endl;
 				cout << "TEKAN ENTER UNTUK KEMBALI KE MENU PRICELIST" <<endl;
-				getch(); //Menahan sekuensi program atau menunggu input dari user
+				_getch(); //Menahan sekuensi program atau menunggu input dari user
 				
 				/*system ("CLS") digunakan untuk membersihkan layar pada program yang akan dijalankan
 				sehingga pem-rogram dapat menentukan saat untuk menghapus data yang telah dijalankan
@@ -114,7 +114,7 @@ int program (){
 	//Jika kondisi pada while di atas tidak terjadi (false) maka program akan dilanjutkan
 	setcolor (3);
 	cout << "TEKAN ENTER UNTUK MELANJUTKAN KE MENU PEMBAYARAN" <<endl;
-	getch(); //Menahan sekuensi program atau menunggu input dari user
+	_getch(); //Menahan sekuensi program atau menunggu input dari user
 	system ("CLS");
 	setcolor (7);
 		
@@ -171,7 +171,7 @@ int program (){
 				cout << "yang belum tersedia dalam toko kami \n";
 				cout << "Maaf :(" << endl;
 				cout << "SILAKAN TEKAN ENTER UNTUK MEMASUKKAN ULANG METODE PEMBAYARAN" <<endl;
-				getch();
+				_getch();
 				system ("CLS");
 				setcolor (7);
 			}
